@@ -7,8 +7,8 @@ with open(file="hosts.txt", mode="r") as hosts:
     devices = [{
         'device_type' : 'cisco_ios',
         'ip' : ip,
-        'username' : 'admin',
-        'password' : 'Suporte@2018',
+        'username' : 'username',
+        'password' : 'password',
         #'secret' : '',
     }
     for ip in hosts.read().splitlines()
